@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellTabRailRepro.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellTabRailRepro"
+    Title="ShellTabRailRepro">
+
+    <!-- Eight tabs: more than the five MAUI's ShellItemRenderer assumes fit before More. -->
+    <TabBar>
+        <ShellContent Title="News" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Videos" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Events" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Settings" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Join" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Near You" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Voting" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="About" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MainPage}" />
+    </TabBar>
+
+</Shell>
